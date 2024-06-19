@@ -44,5 +44,12 @@ class TestCalc(unittest.TestCase):
         result = calc.add2('abc', '5.5')
         self.assertEqual(result, 'abc5.5')
 
+    def test_factorial(self):
+        """
+        Test the factorial of a integer n
+        """
+        result = calc.factorial(5)
+        self.assertEqual(result, 120)
+
 if __name__ == '__main__':
     unittest.main()

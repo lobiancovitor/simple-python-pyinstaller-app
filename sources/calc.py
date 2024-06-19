@@ -26,3 +26,9 @@ def add2(arg1, arg2):
         arg1conv = str(arg1conv)
         arg2conv = str(arg2conv)
     return arg1conv + arg2conv
+
+def factorial(n: int):
+    if n == 1:
+        return 1
+
+    return n * (n-1)
