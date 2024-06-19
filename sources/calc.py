@@ -30,5 +30,5 @@ def add2(arg1, arg2):
 def factorial(n: int):
     if n == 1:
         return 1
-
-    return n * (n-1)
+    else:
+        return n * factorial(n-1)
